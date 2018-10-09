@@ -1,0 +1,178 @@
+body{
+    background-image: url(fooldal.jpg);
+    color: white;
+    margin: 30px;
+}
+
+.Nightmare{
+    background-image: url(A_nightmare_on_elm_street_3.jpg)
+}
+
+h1,h2{
+    text-align: center;
+}
+
+header{
+    background-color: black;
+}
+
+section{
+    background-color: black;
+}
+
+form{
+    text-align: center;
+}
+
+/* footer styles */
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+
+footer a:hover{
+    background-color: #333;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+/* img */
+
+.tablazatimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+/* menu base styles */
+
+    
+    footer{
+    background: black;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+footer a:hover{
+    background-color: #333;
+}
+
+nav{
+    background: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #333;
+}
+
+/* flex styles */
+
+@media screen and (min-width: 768px){
+    
+    nav ul{
+        display: flex;
+    }
+    nav li{
+        flex: 1 1 0;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    
+    footer ul{
+        display: flex;
+    }
+    footer li{
+        flex: 1 1 0;
+    }
+}
+
+@keyframes kepek {
+    
+    0% {
+        Left: 0;
+    }
+    
+    20%{
+        Left: 0;
+    }
+    
+    25%{
+        Left: -100%;
+    }
+    
+    45%{
+        Left: -100%;
+    }
+    
+    50%{
+        Left: -200%;
+    }
+    
+
+}
+
+    #kepek{
+        overflow: hidden;
+    }
+    
+    #kepek figure img{
+        width: 20%;
+        float: left;
+    }
+    
+    #kepek figure{
+        position: relative;
+        width: 250%;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 20s kepek infinite;
+    }
+    
+}
