@@ -150,9 +150,10 @@ nav a:hover{
     }
     
     50%{
-        Left: -200%;
+        Left: 0;
     }
     
+
 
 }
 
@@ -161,18 +162,18 @@ nav a:hover{
     }
     
     #kepek figure img{
-        width: 20%;
+        width: 14%;
         float: left;
     }
     
     #kepek figure{
         position: relative;
-        width: 250%;
+        width: 220%;
         margin: 0;
         left: 0;
         text-align: left;
         font-size: 0;
-        animation: 20s kepek infinite;
+        animation: 15s kepek infinite;
     }
     
 }
